@@ -181,5 +181,3 @@ def test():
     net = ResNet18_self()
     y = net(Variable(torch.randn(1,3,32,32)))
     print(y.size())
-
-#
